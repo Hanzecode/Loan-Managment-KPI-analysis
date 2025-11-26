@@ -99,16 +99,6 @@ Code structure and methods closely follow the original YouTube tutorial (link ca
 
 You can extend the notebook by adding dashboards, automated reports, or machine-learning predictions.
 
-🛠️ Future Improvements (Optional)
-
-Add more KPIs (default rate, risk segments, time-to-funding)
-
-Build a cleaner project structure with scripts/modules
-
-Add a README section explaining the dataset in detail
-
-Convert the analysis into a Streamlit or Power BI dashboard
-
 🙋‍♂️ Acknowledgements
 
 Special thanks to the YouTube creator whose tutorial guided this project.

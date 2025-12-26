@@ -1,105 +1,65 @@
 # 📊 Loan Management KPI Analysis
 
-A learning project based on a YouTube tutorial
+A personal data analysis learning project
 
-### 📘 Overview
+## 📘 Overview
 
-This repository contains a Python-based analysis of loan-related Key Performance Indicators (KPIs).
-The project was built by following a YouTube tutorial as part of my effort to strengthen my skills in data analysis, pandas, and exploratory data visualisation.
+This repository contains a Python-based analysis of loan-related Key Performance Indicators (KPIs).  
+The project was created as part of my personal learning journey to strengthen my skills in **data analysis, pandas, and exploratory data visualisation**.
 
-The notebook walks through how to load a loan dataset, clean it, calculate KPIs, and generate useful summary insights.
+The notebook demonstrates how to load a loan dataset, clean and prepare the data, calculate meaningful KPIs, and generate summary insights using visualisations.
 
-### 🎯 Purpose of the Project
+## 🎯 Purpose of the Project
 
-Practise Python data analysis workflows using pandas, NumPy, and Matplotlib/Seaborn
+- Practise Python data analysis workflows using **pandas**, **NumPy**, and **Matplotlib/Seaborn**
+- Understand how to compute common KPIs in loan or credit-related datasets
+- Improve familiarity with **Jupyter Notebooks** and reproducible analysis
+- Learn how to structure a small, end-to-end analytical project
 
-Understand how to compute common KPIs in loan or credit-related datasets
+This project is intended for **learning and skill development**, not as a production-ready analytics system.
 
-Improve familiarity with Jupyter Notebooks and reproducible analysis
+## 📂 Repository Structure
 
-Learn how to structure a small end-to-end analytic project
+| File | Description |
+|-----|------------|
+| `python_kpi_analysis.ipynb` | Jupyter notebook containing the full KPI analysis, including code, visualisations, and explanations |
+| *(Optional)* dataset file | Loan dataset used for the analysis (if added) |
 
-This is a learning and skill-building exercise, not a production-ready analytics tool.
+## 🔍 What’s Inside the Notebook
 
-### 📂 Repository Structure
-File	Description
-python_kpi_analysis.ipynb	Jupyter notebook containing the full KPI analysis. All code, visualisations, and explanations are included here.
-(Add data file if you choose to upload it)	(Optional: dataset used in the tutorial)
-### 🔍 What’s Inside the Notebook
+The notebook follows a clear, step-by-step workflow:
 
-The notebook follows a step-by-step workflow:
+### 1. Data Loading
+- Import loan data from CSV or Excel
+- Inspect dataset structure (columns, data types, missing values)
 
-#### 1. Data Loading
+### 2. Data Cleaning
+- Handle missing values
+- Convert and format date columns
+- Correct data types (numeric and categorical)
+- Remove or filter invalid records
 
-Import CSV/excel loan data
+### 3. KPI Calculations
 
-Inspect data structure (columns, types, missing values)
+Examples of calculated metrics include:
+- Total funded loan amount
+- Number of loans issued
+- Average interest rate
+- Loan approval vs. rejection counts
+- Loan status breakdown (e.g. funded, repaid, defaulted)
+- Monthly and annual lending trends
 
-#### 2. Data Cleaning
+### 4. Visualisation
+Simple charts are used to illustrate:
+- Loan amount distributions
+- Loan status categories
+- Funding amounts over time
+- KPI comparisons
 
-Handle missing values
+## 🚀 How to Run the Project
 
-Convert date columns
+### Requirements
 
-Correct data types (numeric, categorical)
-
-Remove or filter invalid records
-
-#### 3. KPI Calculations
-
-Examples of computed metrics include:
-
-Total funded amount
-
-Number of loans
-
-Average interest rate
-
-Loan approval vs. rejection counts
-
-Loan status breakdown (e.g., funded, repaid, defaulted)
-
-Monthly/annual trends in lending activity
-
-#### 4. Visualisation
-
-Simple plots to illustrate:
-
-Loan distributions
-
-Status categories
-
-Funding amounts over time
-
-KPI comparisons
-
-### 🚀 How to Run the Project
-Requirements
-
-Install dependencies (example):
-``` bash
+Install the required dependencies:
+```bash
 pip install pandas numpy matplotlib seaborn jupyter
-```
-Steps
-
-Clone the repo:
-``` bash
-git clone https://github.com/Hanzecode/Loan-Managment-KPI-analysis.git
-````
-
-Open Jupyter Notebook
-``` bash
-Run python_kpi_analysis.ipynb
-``` 
-### 📌 Notes
-
-This project is for learning and practice, not a full professional pipeline.
-
-Code structure and methods closely follow the original YouTube tutorial.
-
-You can extend the notebook by adding dashboards, automated reports, or machine-learning predictions.
-
-### 🙋‍♂️ Acknowledgements
-
-Special thanks to the YouTube creator whose tutorial guided this project.
-This repository reflects my own learning, interpretation, and extensions of the material.

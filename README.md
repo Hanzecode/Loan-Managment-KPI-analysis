@@ -95,7 +95,7 @@ Run python_kpi_analysis.ipynb
 
 This project is for learning and practice, not a full professional pipeline.
 
-Code structure and methods closely follow the original YouTube tutorial (link can be added if you want).
+Code structure and methods closely follow the original YouTube tutorial.
 
 You can extend the notebook by adding dashboards, automated reports, or machine-learning predictions.
 

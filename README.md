@@ -30,7 +30,7 @@ This project is intended for **learning and skill development**, not as a produc
 The notebook follows a clear, step-by-step workflow:
 
 ### 1. Data Loading
-- Import loan data from CSV or Excel
+- Import loan data from Excel
 - Inspect dataset structure (columns, data types, missing values)
 
 ### 2. Data Cleaning
